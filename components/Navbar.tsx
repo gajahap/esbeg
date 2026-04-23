@@ -30,7 +30,7 @@ const Navbar = () => {
   const cartBtnRef = useRef<HTMLDivElement>(null);
 
   const NavLinks = [
-    { name: "New Arrivals", href: "/" },
+    { name: "Home", href: "/" },
     { name: "Product", href: "/product" },
     { name: "About", href: "/about" },
   ];

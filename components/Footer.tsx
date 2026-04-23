@@ -74,7 +74,7 @@ const Footer = () => {
         {/* Bottom Section: Copyright */}
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            © 2026 ESBEG STORE — DEFINED BY ELEGANCE
+            © 2026 ESBEG STORE
           </p>
           <div className="flex gap-6 text-[10px] uppercase tracking-widest text-muted-foreground">
             <span className="cursor-pointer hover:text-black">Kebijakan Privasi</span>

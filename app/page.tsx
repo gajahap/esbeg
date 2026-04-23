@@ -235,17 +235,17 @@ export default function HomePage() {
           {/* Bagian Deskripsi */}
           <div className="border-b border-t py-2 border-neutral-300 dark:border-neutral-800">
             <p className="text-sm md:text-base bg-neutral-100 dark:bg-neutral-800 p-5 text-center hover:scale-105 duration-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Bukan sekadar pakaian, lebih dari itu adalah sebuah representasi diri sendiri.
             </p>
           </div>
         </div>
       </section>
 
       {/* --- BRAND EXPLORATION --- */}
-      <section className="w-full py-12 md:py-24 px-4 md:px-6 bg-black flex flex-col items-center">
+      <section className="w-full py-12 md:py-24 px-4 md:px-6 flex flex-col items-center">
         <div className="container">
           <div className="mb-10 md:mb-16 text-center space-y-2">
-            <h2 className="text-3xl md:text-4xl text-white tracking-tight">
+            <h2 className="text-3xl md:text-4xl  tracking-tight">
               Explore <span className="font-bold">Brand Kami</span>
             </h2>
             <p className="text-neutral-400 text-sm md:text-base max-w-md mx-auto">
