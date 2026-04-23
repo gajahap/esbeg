@@ -178,7 +178,7 @@ export default function HomePage() {
       </section>
 
       {/* --- EVENT BANNERS GRID --- */}
-      <section className="w-full py-12 px-4 md:px-6">
+      {/* <section className="w-full py-12 px-4 md:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-3 md:gap-4 h-auto md:h-[600px]">
             {eventBanners.filter(e => e.no_urut !== 99).map((event, index) => {
@@ -207,14 +207,13 @@ export default function HomePage() {
           <div className="my-4 overflow-hidden border-y border-neutral-300 dark:border-neutral-800 flex">
             <motion.div
               className="flex whitespace-nowrap"
-              animate={{ x: ["0%", "-50%"] }} // Bergerak dari awal ke tengah
+              animate={{ x: ["0%", "-50%"] }} 
               transition={{ 
-                duration: 10, // Sesuaikan kecepatan (makin kecil makin cepat)
+                duration: 10, 
                 repeat: Infinity, 
                 ease: "linear" 
               }}
             >
-              {/* Kelompok 1 */}
               <div className="flex items-center">
                 <span className="font-bold text-4xl md:text-6xl py-4 px-8">ESBEG</span>
                 <span className="font-bold text-4xl md:text-6xl py-4 px-8">ESBEG</span>
@@ -222,7 +221,6 @@ export default function HomePage() {
                 <span className="font-bold text-4xl md:text-6xl py-4 px-8">ESBEG</span>
               </div>
               
-              {/* Kelompok 2 (Duplikat persis agar menyambung) */}
               <div className="flex items-center">
                 <span className="font-bold text-4xl md:text-6xl py-4 px-8">ESBEG</span>
                 <span className="font-bold text-4xl md:text-6xl py-4 px-8">ESBEG</span>
@@ -231,15 +229,13 @@ export default function HomePage() {
               </div>
             </motion.div>
           </div>
-
-          {/* Bagian Deskripsi */}
           <div className="border-b border-t py-2 border-neutral-300 dark:border-neutral-800">
             <p className="text-sm md:text-base bg-neutral-100 dark:bg-neutral-800 p-5 text-center hover:scale-105 duration-300">
               Bukan sekadar pakaian, lebih dari itu adalah sebuah representasi diri sendiri.
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* --- BRAND EXPLORATION --- */}
       <section className="w-full py-12 md:py-24 px-4 md:px-6 flex flex-col items-center">
